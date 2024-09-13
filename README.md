@@ -10,8 +10,7 @@ In this API Project Implemented simple CRUD Operation with following
  -> SOLID Principle
  -> SMTP mail Service
 
-To implement the Service Request WebAPI with CRUD operations and a notification system, 
-here's how the mentioned concepts and technologies can be used, with specific use cases related to the task:
+To implement the Service Request WebAPI with CRUD operations and a notification system scalable for large number of transaction, following concepts and technologies can be used, with specific use cases related to the task:
 
  1. Auto Scaling Group (App Services)
 Use Case: The service request API is hosted on cloud-based App Services (Azure App Service or AWS Elastic Beanstalk), and auto-scaling is configured to handle fluctuating loads. When a large number of users create or update service requests during peak times (e.g., maintenance periods or service downtimes), the auto-scaling group dynamically scales the number of instances running the API to meet demand.
