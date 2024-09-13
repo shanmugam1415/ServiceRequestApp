@@ -8,7 +8,7 @@ In this API Project Implemented simple CRUD Operation with following
  -> Dependency Injection
  -> Swagger
  -> SOLID Principle
- -> SMTP mail Service
+ -> SMTP e-mail Service- for Notification Service
 
 To implement the Service Request WebAPI with CRUD operations and a notification system scalable for large number of transaction, following concepts and technologies can be used, with specific use cases related to the task:
 
