@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "Service_Request_App.Controllers.ServiceRequestController",
+    "Method": "GetAll",
+    "RelativePath": "api/ServiceRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Request_App.Controllers.ServiceRequestController",
+    "Method": "Create",
+    "RelativePath": "api/ServiceRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Service_Request_App.Model.ServiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Request_App.Controllers.ServiceRequestController",
+    "Method": "GetById",
+    "RelativePath": "api/ServiceRequest/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Request_App.Controllers.ServiceRequestController",
+    "Method": "Update",
+    "RelativePath": "api/ServiceRequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Service_Request_App.Model.ServiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Request_App.Controllers.ServiceRequestController",
+    "Method": "Delete",
+    "RelativePath": "api/ServiceRequest/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Request_App.Controllers.ServiceRequestController",
+    "Method": "CloseRequest",
+    "RelativePath": "api/ServiceRequest/closerequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
